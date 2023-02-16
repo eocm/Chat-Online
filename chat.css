@@ -1,0 +1,52 @@
+#all-messages {
+    padding: 30px 30px;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.message .image-container {
+    width: 50px;
+    align-items: flex-start;
+}
+
+.message .message-body {
+    margin-left: 10px;
+    width: calc(100% - 50px)
+}
+
+.message .message-body .user-info {
+    font-weight: bold;
+    color:white;
+}
+
+.message .message-body .user-info .time {
+    color: gold;
+    font-size: 15px;
+}
+
+.message .message-body p {
+    margin-top: 5px;
+    color:blue;
+    font-size: 30px;
+}
+
+.send-message {
+    background: aqua;
+    border:30px solid black;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.send-message input {
+    width: 100%;
+    padding: 7px 5px;
+}
+
+.send-message button {
+    margin-left: 10px;
+    color:White
+}
